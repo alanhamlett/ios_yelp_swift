@@ -11,11 +11,17 @@ import UIKit
 class BusinessesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, FiltersViewControllerDelegate {
 
     var businesses: [Business]!
+    var searchBar: UISearchBar!
     
     @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        searchBar = UISearchBar()
+        searchBar.sizeToFit()
+
+        navigationItem.titleView = searchBar
 
         tableView.delegate = self
         tableView.dataSource = self

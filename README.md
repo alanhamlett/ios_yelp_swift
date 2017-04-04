@@ -4,7 +4,7 @@ A Yelp search app.
 
 Submitted by: Alan Hamlett
 
-Time spent: [coming soon][time spent coding]
+Time spent: [7 hrs 22 mins][time spent coding]
 
 ## User Stories
 
@@ -64,4 +64,4 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
     limitations under the License.
 
 
-[time spent coding]: https://wakatime.com/@alan
+[time spent coding]: https://wakatime.com/@alan/projects/gstqvylbhg?start=2017-04-01&end=2017-04-04
